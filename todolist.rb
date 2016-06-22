@@ -12,37 +12,43 @@ class TodoList
     @items.push(item)
   end
   
-  def delete_item(new_item)
-    @items.delete(item)
+  def delete_item(index)
+    @items.delete_at(index)
   end
   
-  def print_items
+  def print_list_header
     puts "-" * 20
     puts @title
     puts "-" * 20
-    @items.each_with_index do |item, index|
-      puts "#{index + 1} - #{@items[index].description}"  
+    puts "All My 'To Dos' ".ljust(25) + "Completed?"
+  end
+  
+  def print_items
+    print_list_header
+    @items.each_with_index do |task, index|
+      puts "#{index + 1} - " + "#{task.print_task}"
     end
-  end 
-#   def print_items
-#     print_list_title
-#     @items.each_with_index do |task, index|
-#       puts "#{index +1} - #{task.print_task}"   
-#     end
-#   end
-end
+  end
+
+
+  
+#  def print_list_with_items
+#    print_list
+#    print_each_item
+#  end
+end  
 
 class Item
-  attr_reader :description, :completed_status
+  attr_accessor :description, :completed_status
   
   #Initialize item with a description and marked as not complete
   def initialize(item_description)
     @description = item_description
     @completed_status = false
   end
-end 
-#  def print_items #(item_description)
-#    puts "test"  #item_description
-#    puts "Completed: " @complated_status
-#  end
-  
+ 
+  def print_task
+    "#{@description.ljust(20)} {@completed_status}?"
+  end 
+end  
+

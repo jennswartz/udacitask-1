@@ -9,8 +9,6 @@ mylist.add_item("Buy steak")
 mylist.add_item("Start grill")
 mylist.add_item("Grill steak")
 
-
-
 # Print the list
 mylist.print_items
 
@@ -18,11 +16,13 @@ mylist.print_items
 #mylist.delete_item(0)
 
 # Print the list
-#puts mylist.print_list
+#mylist.print_items
 
 # Delete the second item
+#mylist.delete_item(1)
 
 # Print the list
+#mylist.print_items
 
 # Update the completion status of the first item to complete
 
