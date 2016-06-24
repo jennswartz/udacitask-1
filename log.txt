@@ -1,0 +1,29 @@
+commit 2fd34319418bc607640c6d1bd2b8a4e19b053a01
+Author: Jennifer Swartz <swartzjenn@gmail.com>
+Date:   Fri Jun 24 12:23:49 2016 -0400
+
+    Added new features; all features working
+
+commit 39e8cee40c0672a28c8e59cf732488511f3cbd3f
+Author: Jennifer Swartz <swartzjenn@gmail.com>
+Date:   Wed Jun 22 14:31:47 2016 -0400
+
+    All required features added and working
+
+commit 6ccb8b93c14b2978f95596bbc97a6885a5399eef
+Author: Jennifer Swartz <swartzjenn@gmail.com>
+Date:   Tue Jun 21 21:40:23 2016 -0400
+
+    Added additional formatting, fixed add and delete feature functionality
+
+commit 3b0eab51a4bb30bd05b9c941e867c3066d4418a0
+Author: Jennifer Swartz <swartzjenn@gmail.com>
+Date:   Mon Jun 20 21:32:33 2016 -0400
+
+    Set up add files and print functions
+
+commit f903b0a5bbf98a66a8b625a413c6eaa23107f1d8
+Author: Jennifer Swartz <swartzjenn@gmail.com>
+Date:   Mon Jun 20 11:25:26 2016 -0400
+
+    Initial commit

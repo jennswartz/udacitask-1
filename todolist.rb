@@ -1,5 +1,5 @@
 class TodoList
-  attr_accessor :title, :items
+  attr_reader :title, :items
   
   #methods and stuff go here
   def initialize(list_title)
@@ -57,8 +57,6 @@ class TodoList
 
   # Print the task list to file  
   def print_file
-    path = File.join(File.dirname(__FILE__), '../udacitask/udacitask.rb')
-    file = File.read(path)
     new_file = File.new("todolist.txt", "w+")
     new_file.puts "-" * 30
     new_file.puts "#{@title.upcase}"
