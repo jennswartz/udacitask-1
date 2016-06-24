@@ -1,3 +1,9 @@
+commit 22320075ca6dcfa9336bfb99510165100eb83615
+Author: Jennifer Swartz <swartzjenn@gmail.com>
+Date:   Fri Jun 24 16:07:21 2016 -0400
+
+    Final changes after review
+
 commit 2fd34319418bc607640c6d1bd2b8a4e19b053a01
 Author: Jennifer Swartz <swartzjenn@gmail.com>
 Date:   Fri Jun 24 12:23:49 2016 -0400
