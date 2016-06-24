@@ -1,0 +1,8 @@
+Feature #1:  Adds priority status to the To Do list.  The two options are: "Do Now" or 
+"Procrastinate."  The priority status is initially set to "Do Now" but can by changed.  "Do
+Now" is the false boolean, and procrastinate is the true.
+
+Feature #2:  Deletes completed items from the list.  
+
+Feature #3:  Prints the list to a text file.
+
